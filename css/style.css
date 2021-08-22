@@ -63,7 +63,6 @@ ul {
 .header-section {
   padding-top: 24px;
   padding-bottom: 25px;
-  margin-bottom: 20px;
   border-bottom: 1px solid #ececec;
 }
 .header-section .web {
@@ -115,8 +114,8 @@ a {
 /* Секція герой */
 .hero {
   background-color: var(--fill);
-  padding-top: 180px;
-  padding-bottom: 230px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero .title {
   margin-left: auto;
@@ -161,17 +160,17 @@ a {
   line-height: 1.63;
   letter-spacing: 0.03em;
   cursor: pointer;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .button.portfolio:hover,
 .button.portfolio:focus {
   background-color: var(--third-color);
   color: var(--main-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /* Секції "Особливості", "Чем мы занимаемся", "Наша команда"*/
 .work-list {
-  margin-top: 74px;
+  padding-top: 94px;
 }
 .work-list .container > ul {
   display: flex;
@@ -191,12 +190,9 @@ a {
 }
 
 .activity-section .title {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
-.team-section .name {
-  margin-top: 82px;
-}
 .activity-section .title,
 .team-section .name {
   font-weight: 700;
@@ -204,6 +200,9 @@ a {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.team-section .name {
+  padding-bottom: 50px;
 }
 .activity-section .title {
   margin-bottom: 50px;
@@ -232,8 +231,7 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 .team-section .title {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -243,9 +241,12 @@ a {
 .team-section .main {
   display: flex;
 }
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .team-section .description {
-  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -271,17 +272,11 @@ a {
   color: var(--fourth-color);
 }
 .team-section {
-  margin-bottom: 94px;
-  margin-top: 84px;
-}
-.team-section .name {
-  margin-bottom: 50px;
   padding-top: 94px;
 }
 
 .portfolio-section .filter {
   display: flex;
-  margin-top: 74px;
   justify-content: center;
   margin-bottom: 50px;
 }
@@ -296,6 +291,9 @@ a {
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+.portfolio-section {
+  padding-top: 94px;
 }
 
 .portfolio-section .title {
@@ -326,6 +324,7 @@ a {
 .text {
   padding-left: 24px;
   padding-top: 20px;
+  padding-bottom: 20px;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -336,7 +335,6 @@ a {
 
 .portfolio-list .description {
   margin-top: 4px;
-  margin-bottom: 20px;
 }
 
 /* Футер */
