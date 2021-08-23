@@ -192,8 +192,9 @@ a {
   margin-right: 0px;
 }
 
-.activity-section .title {
+.activity-section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .activity-section .title,
@@ -205,13 +206,11 @@ a {
   letter-spacing: 0.03em;
 }
 .team-section .name {
-  padding-bottom: 50px;
-}
-.activity-section .title {
   margin-bottom: 50px;
 }
-.activity-section {
-  margin-bottom: 0;
+
+.activity-section .title {
+  margin-bottom: 50px;
 }
 .activity-list {
   display: flex;
